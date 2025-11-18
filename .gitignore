@@ -1,0 +1,20 @@
+# Jangan upload file rahasia
+.streamlit/secrets.toml
+
+# Jangan upload virtual environment
+venv/
+env/
+
+# Jangan upload file cache Streamlit
+.streamlit/cache/
+
+# Jangan upload file database (jika ada)
+*.db
+
+# Jangan upload file log atau temporary
+*.log
+*.tmp
+
+# Jangan upload file Python cache
+__pycache__/
+*.pyc
